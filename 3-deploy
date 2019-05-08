@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker exec vespa bash -c '/opt/vespa/bin/vespa-deploy prepare /vespa-sample-apps/basic-search/src/main/application/ && /opt/vespa/bin/vespa-deploy activate'

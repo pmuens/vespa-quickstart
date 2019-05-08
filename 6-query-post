@@ -1,0 +1,3 @@
+#!/bin/sh
+
+curl -s -H "Content-Type: application/json" --data '{"query" : "bad"}' http://localhost:8080/search/ | python -m json.tool
